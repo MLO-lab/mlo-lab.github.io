@@ -1,526 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>MLO Lab</title>
-    <link>https://mlo-lab.github.io/</link>
-      <atom:link href="https://mlo-lab.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>MLO Lab</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 MLO Lab</copyright><lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://mlo-lab.github.io/media/logo_huf4d7cfef1565109ab26b35fe95d2b8f5_47080_300x300_fit_lanczos_2.png</url>
-      <title>MLO Lab</title>
-      <link>https://mlo-lab.github.io/</link>
-    </image>
-    
-    <item>
-      <title>Workshop on XAI and Trustworthiness in Healthcare at KDD 2021!</title>
-      <link>https://mlo-lab.github.io/post/workshop/</link>
-      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/post/workshop/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;We organize a workshop at this year&amp;rsquo;s KDD&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Check out the workshop website &lt;a href=&#34;https://dshealthkdd.github.io/dshealth-2021/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
-Paper submission deadline is 10th May 2021.&lt;/p&gt;
-&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
-&lt;p&gt;Healthcare is, traditionally, a knowledge-driven enterprise with an enormous amount of data - both structured and unstructured. These data can impact positively on the development of data-driven health care including precision medicine and precision public health. In recent years, large scale medical/clinical datasets, such as “omics” data and radiology reports are increasingly available. We have also witnessed an increasing number of successful AI/ML applications using such datasets to address problems such as drug repurposing and preliminary screening of radiology reports. To facilitate the adoption of such AI/ML in practice, we have simultaneously witnessed an increasing adoption/innovation of using explainability methods to analyze/present AI for Health. In this deep learning era, What is the current status of AI/ML applications in healthcare? What are the standard methods of explaining such AI models for healthcare? What are the roles of causality in AI/ML practices? What are the state-of-the-art developments in causal AI in health and health care domains? What are the limitations and how are the different facets of trust and explanations (see figure 1 below) being addressed in practice? Can knowledge-backed AI lead to more robust and interpretable models? How do data scientists and physicians apply this knowledge in collaboration and via human-centered AI approaches to further the field and improve healthcare? How are regulatory requirements for transparency and trustworthiness of models and data privacy being defined and how can they be fulfilled? After witnessing so many great achievements from deep learning lately, we propose to invite world-leading experts from both data science and healthcare to discuss and debate the path forward for practical applications of AI/ML in healthcare, including demos, early work, and critiques on the current state and the path forward for explainability and trustworthiness in AI. More specifically, we plan to attract high-quality original research from emerging areas with significant implications in healthcare and invite open discussions on controversial yet crucial topics regarding healthcare transformation&lt;/p&gt;
-&lt;h1 id=&#34;key-dates&#34;&gt;Key dates&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Paper Submission opens: Apr 15, 2021&lt;/li&gt;
-&lt;li&gt;Paper Submission deadline: May 10, 2021&lt;/li&gt;
-&lt;li&gt;Acceptance Notice: Jun 10, 2021&lt;/li&gt;
-&lt;li&gt;Workshop Date: Aug 14, 2021&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;All deadlines correspond to 11:59 PM Hawaii Standard Time ( HST).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Computational single-cell biology</title>
-      <link>https://mlo-lab.github.io/project/single-cell/</link>
-      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/project/single-cell/</guid>
-      <description>&lt;h2 id=&#34;single-cell-rna-seq&#34;&gt;Single-cell RNA-seq&lt;/h2&gt;
-&lt;p&gt;One research focus of MLO is on the development of application driven probabilistic machine-learning methods for analyzing high-throughput single-cell RNA-seq data.
-Single-cell RNA sequencing (scRNA-seq) has  become a widely used routine assay and recent scRNA-seq protocols now allow to obtain an unbiased profile of transcriptional heterogeneity at a genome-wide scale, which can be scaled to large datasets with up to millions of cells.
-Analysis of such data is challenging: As the intrinsic cellular state of individual cells cannot be directly assayed, cell states need to be inferred from the transcriptional profiling data itself. To this end, single-cell profiling data pose new challenges and opportunities to derive powerful latent variable models (LVMs) that help to exploit large datasets.&lt;/p&gt;
-&lt;h3 id=&#34;visualization-of-latent-cell-states&#34;&gt;Visualization of latent cell states&lt;/h3&gt;
-&lt;p&gt;We have developed several tools tailored towards inferring and visualizing internal cell states. This includes inferring the internal cell-cycle state of individual cells via Gaussian Process Latent Variabe Models (GPLVM), as well as GPLVM-based identification of cell subpopulations. In addition, we have created tools based on diffusion maps that allow to recover the intrinsic order of cels, e.g. in terms of their differentiation state.&lt;/p&gt;
-&lt;h3 id=&#34;identification-of-sources-of-cell-cell-variation&#34;&gt;Identification of sources of cell-cell variation&lt;/h3&gt;
-&lt;p&gt;Cell-cell variability in terms of gene expression results from a variety of potential sources, including technical noise, biological variation of interest and unwanted biologicl variation (e.g. mitochonrial genes, cell cycle state, etc.). To disentangle these sources of variation, we designed slalom, an interpretable latent variable model that addresses three key tasks in computational scRNA-seq&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Disentagling biological and technical sources of variation&lt;/li&gt;
-&lt;li&gt;Visualizing the pathways driving cell-cell variation&lt;/li&gt;
-&lt;li&gt;Refining pathway annotations in an experiment-specific manner&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Multi-omics data integration</title>
-      <link>https://mlo-lab.github.io/project/mofa/</link>
-      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/project/mofa/</guid>
-      <description>&lt;p&gt;Multi‐omics studies promise the improved characterization of biological processes across molecular layers. However, methods for the integration of the resulting heterogeneous data sets are lacking.
-We develop tools and algorithms for the supervised as well as unsupervised integration of such data.&lt;/p&gt;
-&lt;h2 id=&#34;unsupervised-data-integration&#34;&gt;Unsupervised data integration&lt;/h2&gt;
-&lt;p&gt;For example, we present Multi‐Omics Factor Analysis (MOFA), an unsupervised computational method for discovering the principal sources of variation in multi‐omics data sets. MOFA infers a set of (hidden) factors that capture biological and technical sources of variability. It disentangles axes of heterogeneity that are shared across multiple modalities and those specific to individual data modalities. The learnt factors enable a variety of downstream analyses, including identification of sample subgroups, data imputation and the detection of outlier samples.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MLO Lab</title><link>https://mlo-lab.github.io/</link><atom:link href="https://mlo-lab.github.io/index.xml" rel="self" type="application/rss+xml"/><description>MLO Lab</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 MLO Lab</copyright><lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate><image><url>https://mlo-lab.github.io/media/logo_huf4d7cfef1565109ab26b35fe95d2b8f5_47080_300x300_fit_lanczos_2.png</url><title>MLO Lab</title><link>https://mlo-lab.github.io/</link></image><item><title>Workshop on XAI and Trustworthiness in Healthcare at KDD 2021!</title><link>https://mlo-lab.github.io/post/workshop/</link><pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/post/workshop/</guid><description>&lt;p>&lt;strong>We organize a workshop at this year&amp;rsquo;s KDD&lt;/strong>&lt;/p>
+&lt;p>Check out the workshop website &lt;a href="https://dshealthkdd.github.io/dshealth-2021/" target="_blank">here&lt;/a>.
+Paper submission deadline is 10th May 2021.&lt;/p>
+&lt;h1 id="overview">Overview&lt;/h1>
+&lt;p>Healthcare is, traditionally, a knowledge-driven enterprise with an enormous amount of data - both structured and unstructured. These data can impact positively on the development of data-driven health care including precision medicine and precision public health. In recent years, large scale medical/clinical datasets, such as “omics” data and radiology reports are increasingly available. We have also witnessed an increasing number of successful AI/ML applications using such datasets to address problems such as drug repurposing and preliminary screening of radiology reports. To facilitate the adoption of such AI/ML in practice, we have simultaneously witnessed an increasing adoption/innovation of using explainability methods to analyze/present AI for Health. In this deep learning era, What is the current status of AI/ML applications in healthcare? What are the standard methods of explaining such AI models for healthcare? What are the roles of causality in AI/ML practices? What are the state-of-the-art developments in causal AI in health and health care domains? What are the limitations and how are the different facets of trust and explanations (see figure 1 below) being addressed in practice? Can knowledge-backed AI lead to more robust and interpretable models? How do data scientists and physicians apply this knowledge in collaboration and via human-centered AI approaches to further the field and improve healthcare? How are regulatory requirements for transparency and trustworthiness of models and data privacy being defined and how can they be fulfilled? After witnessing so many great achievements from deep learning lately, we propose to invite world-leading experts from both data science and healthcare to discuss and debate the path forward for practical applications of AI/ML in healthcare, including demos, early work, and critiques on the current state and the path forward for explainability and trustworthiness in AI. More specifically, we plan to attract high-quality original research from emerging areas with significant implications in healthcare and invite open discussions on controversial yet crucial topics regarding healthcare transformation&lt;/p>
+&lt;h1 id="key-dates">Key dates&lt;/h1>
+&lt;ul>
+&lt;li>Paper Submission opens: Apr 15, 2021&lt;/li>
+&lt;li>Paper Submission deadline: May 10, 2021&lt;/li>
+&lt;li>Acceptance Notice: Jun 10, 2021&lt;/li>
+&lt;li>Workshop Date: Aug 14, 2021&lt;/li>
+&lt;/ul>
+&lt;p>All deadlines correspond to 11:59 PM Hawaii Standard Time ( HST).&lt;/p></description></item><item><title>Computational single-cell biology</title><link>https://mlo-lab.github.io/project/single-cell/</link><pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/project/single-cell/</guid><description>&lt;h2 id="single-cell-rna-seq">Single-cell RNA-seq&lt;/h2>
+&lt;p>One research focus of MLO is on the development of application driven probabilistic machine-learning methods for analyzing high-throughput single-cell RNA-seq data.
+Single-cell RNA sequencing (scRNA-seq) has become a widely used routine assay and recent scRNA-seq protocols now allow to obtain an unbiased profile of transcriptional heterogeneity at a genome-wide scale, which can be scaled to large datasets with up to millions of cells.
+Analysis of such data is challenging: As the intrinsic cellular state of individual cells cannot be directly assayed, cell states need to be inferred from the transcriptional profiling data itself. To this end, single-cell profiling data pose new challenges and opportunities to derive powerful latent variable models (LVMs) that help to exploit large datasets.&lt;/p>
+&lt;h3 id="visualization-of-latent-cell-states">Visualization of latent cell states&lt;/h3>
+&lt;p>We have developed several tools tailored towards inferring and visualizing internal cell states. This includes inferring the internal cell-cycle state of individual cells via Gaussian Process Latent Variabe Models (GPLVM), as well as GPLVM-based identification of cell subpopulations. In addition, we have created tools based on diffusion maps that allow to recover the intrinsic order of cels, e.g. in terms of their differentiation state.&lt;/p>
+&lt;h3 id="identification-of-sources-of-cell-cell-variation">Identification of sources of cell-cell variation&lt;/h3>
+&lt;p>Cell-cell variability in terms of gene expression results from a variety of potential sources, including technical noise, biological variation of interest and unwanted biologicl variation (e.g. mitochonrial genes, cell cycle state, etc.). To disentangle these sources of variation, we designed slalom, an interpretable latent variable model that addresses three key tasks in computational scRNA-seq&lt;/p>
+&lt;ul>
+&lt;li>Disentagling biological and technical sources of variation&lt;/li>
+&lt;li>Visualizing the pathways driving cell-cell variation&lt;/li>
+&lt;li>Refining pathway annotations in an experiment-specific manner&lt;/li>
+&lt;/ul></description></item><item><title>Multi-omics data integration</title><link>https://mlo-lab.github.io/project/mofa/</link><pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/project/mofa/</guid><description>&lt;p>Multi‐omics studies promise the improved characterization of biological processes across molecular layers. However, methods for the integration of the resulting heterogeneous data sets are lacking.
+We develop tools and algorithms for the supervised as well as unsupervised integration of such data.&lt;/p>
+&lt;h2 id="unsupervised-data-integration">Unsupervised data integration&lt;/h2>
+&lt;p>For example, we present Multi‐Omics Factor Analysis (MOFA), an unsupervised computational method for discovering the principal sources of variation in multi‐omics data sets. MOFA infers a set of (hidden) factors that capture biological and technical sources of variability. It disentangles axes of heterogeneity that are shared across multiple modalities and those specific to individual data modalities. The learnt factors enable a variety of downstream analyses, including identification of sample subgroups, data imputation and the detection of outlier samples.
 We applied MOFA to a cohort of 200 patient samples of chronic lymphocytic leukaemia, profiled for somatic mutations, RNA expression, DNA methylation and ex vivo drug responses. MOFA identified major dimensions of disease heterogeneity, including immunoglobulin heavy‐chain variable region status, trisomy of chromosome 12 and previously underappreciated drivers, such as response to oxidative stress.
 In close collaboration with the Oellerich group in Frankfurt, we use MOFA to elucidate the proteogenomic landscape in a range of cancers.
-In addition, we use MOFA to analyse single‐cell multi‐omics data, for example identifying coordinated transcriptional and epigenetic changes along cell differentiation and analysing the epigenetic landscape during mammalian germ layer specification.&lt;/p&gt;
-&lt;h2 id=&#34;supervised-analysis-of-multi-omics-data&#34;&gt;Supervised analysis of multi-omics data&lt;/h2&gt;
-&lt;p&gt;In addition to these unsupevised approaches, we also develop tools for integrative gene-set enrichment analyses in supervised multi-omics settings. In particular, our algorithm MONA and its accompanying webservice RAMONA use a Bayesian approach with a computationally efficient method to approximate the marginal posteriors of ontology terms, given lists of genes responding to experimental conditions. MONA is designed to easily handle any combination of molecular levels in a modular fashion.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Probabilistic latent variable models</title>
-      <link>https://mlo-lab.github.io/project/lvmodels/</link>
-      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/project/lvmodels/</guid>
-      <description>&lt;p&gt;Latent variable models (LVMs) are a statistical tool to infer an unobserved, hidden state of a complex (e.g. biological) system based on observable data that is often high-dimensional. To this end, a high-dimensional dataset of correlated observations is reduced into a low-dimensional dataset of uncorrelated and interpretable latent variables. Probabilistic approaches allow for a principled way to disentangle distinct sources of variation and explicitly model dependencies between features as well as samples.&lt;/p&gt;
-&lt;h2 id=&#34;accounting-for-dependencies-between-genes-in-lvms&#34;&gt;Accounting for dependencies between genes in LVMs&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Standard latent variable models only model dependencies between samples&lt;/li&gt;
-&lt;li&gt;Can we make dependencies between features (genes) explicit?&lt;/li&gt;
-&lt;li&gt;Use framework of Gaussian Process Latent Variable Models (GP-LVM)&lt;/li&gt;
-&lt;li&gt;Probabilistic kernel PCA via GP regression with unobserved input&lt;/li&gt;
-&lt;li&gt;Introduce kernel to model covariance between genes&lt;/li&gt;
-&lt;li&gt;Learn latent variables for genes and samples and connect via Kronecker Product&lt;/li&gt;
-&lt;li&gt;Apply to matrix completion tasks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Reference: Yang &amp;amp; Buettner, UAI 2021 (in revision)&lt;/p&gt;
-&lt;h2 id=&#34;hierarchical-autoencoders-for-domain-generalisation&#34;&gt;Hierarchical autoencoders for Domain Generalisation&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Learn VAE to disentangle domain-specific information form class-specific information  and residual variance&lt;/li&gt;
-&lt;li&gt;Place Dirichlet prior on domain representation&lt;/li&gt;
-&lt;li&gt;Learn “topics” that describe domain structure in unsupervised manner&lt;/li&gt;
-&lt;li&gt;Interpretable model for unsupervised domain generalisation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Reference: Sun &amp;amp; Buettner, ICLR Workshop on robustML, 2021&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Uncertainty-aware deep learning in the real world</title>
-      <link>https://mlo-lab.github.io/project/calibration/</link>
-      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/project/calibration/</guid>
-      <description>&lt;p&gt;Due to their high predictive power, deep neural networks are increasingly being used as part of decision
+In addition, we use MOFA to analyse single‐cell multi‐omics data, for example identifying coordinated transcriptional and epigenetic changes along cell differentiation and analysing the epigenetic landscape during mammalian germ layer specification.&lt;/p>
+&lt;h2 id="supervised-analysis-of-multi-omics-data">Supervised analysis of multi-omics data&lt;/h2>
+&lt;p>In addition to these unsupevised approaches, we also develop tools for integrative gene-set enrichment analyses in supervised multi-omics settings. In particular, our algorithm MONA and its accompanying webservice RAMONA use a Bayesian approach with a computationally efficient method to approximate the marginal posteriors of ontology terms, given lists of genes responding to experimental conditions. MONA is designed to easily handle any combination of molecular levels in a modular fashion.&lt;/p></description></item><item><title>Probabilistic latent variable models</title><link>https://mlo-lab.github.io/project/lvmodels/</link><pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/project/lvmodels/</guid><description>&lt;p>Latent variable models (LVMs) are a statistical tool to infer an unobserved, hidden state of a complex (e.g. biological) system based on observable data that is often high-dimensional. To this end, a high-dimensional dataset of correlated observations is reduced into a low-dimensional dataset of uncorrelated and interpretable latent variables. Probabilistic approaches allow for a principled way to disentangle distinct sources of variation and explicitly model dependencies between features as well as samples.&lt;/p>
+&lt;h2 id="accounting-for-dependencies-between-genes-in-lvms">Accounting for dependencies between genes in LVMs&lt;/h2>
+&lt;ul>
+&lt;li>Standard latent variable models only model dependencies between samples&lt;/li>
+&lt;li>Can we make dependencies between features (genes) explicit?&lt;/li>
+&lt;li>Use framework of Gaussian Process Latent Variable Models (GP-LVM)&lt;/li>
+&lt;li>Probabilistic kernel PCA via GP regression with unobserved input&lt;/li>
+&lt;li>Introduce kernel to model covariance between genes&lt;/li>
+&lt;li>Learn latent variables for genes and samples and connect via Kronecker Product&lt;/li>
+&lt;li>Apply to matrix completion tasks&lt;/li>
+&lt;/ul>
+&lt;p>Reference: Yang &amp;amp; Buettner, UAI 2021 (in revision)&lt;/p>
+&lt;h2 id="hierarchical-autoencoders-for-domain-generalisation">Hierarchical autoencoders for Domain Generalisation&lt;/h2>
+&lt;ul>
+&lt;li>Learn VAE to disentangle domain-specific information form class-specific information and residual variance&lt;/li>
+&lt;li>Place Dirichlet prior on domain representation&lt;/li>
+&lt;li>Learn “topics” that describe domain structure in unsupervised manner&lt;/li>
+&lt;li>Interpretable model for unsupervised domain generalisation&lt;/li>
+&lt;/ul>
+&lt;p>Reference: Sun &amp;amp; Buettner, ICLR Workshop on robustML, 2021&lt;/p></description></item><item><title>Uncertainty-aware deep learning in the real world</title><link>https://mlo-lab.github.io/project/calibration/</link><pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/project/calibration/</guid><description>&lt;p>Due to their high predictive power, deep neural networks are increasingly being used as part of decision
 making systems in real world applications. However, such systems require not only high accuracy, but also reliable and calibrated uncertainty estimates. Especially in safety critical applications in medicine where average case performance is insufficient, practitioners need to have access to reliable predictive uncertainty during the entire lifecycle of the model. This means confidence scores (or
 predictive uncertainty) should be meaningful not only for in-domain predictions, but also under gradual
-domain drift where the distribution of the input samples gradually changes from in-domain to truly out-ofdistribution (OOD). In healthcare, common examples of such domain shift scenarios are a patient demographic that changes over time or new hospitals in which a model is to be deployed.&lt;/p&gt;
-&lt;h2 id=&#34;towards-trustworthy-predictions-from-deep-neural-networks-with-fast-adversarial-calibration&#34;&gt;Towards Trustworthy Predictions from Deep Neural Networks with Fast Adversarial Calibration&lt;/h2&gt;
-&lt;p&gt;Here, we propose an efficient yet general modelling approach for obtaining wellcalibrated, trustworthy probabilities for samples obtained after a domain shift. We introduce a new training strategy combining an entropy-encouraging loss term with an adversarial calibration loss term and demonstrate that this results in well-calibrated and technically trustworthy predictions for a wide range of domain drifts. We comprehensively evaluate previously proposed approaches on different data modalities, a large range of data sets including sequence data, network architectures and perturbation strategies. We observe
+domain drift where the distribution of the input samples gradually changes from in-domain to truly out-ofdistribution (OOD). In healthcare, common examples of such domain shift scenarios are a patient demographic that changes over time or new hospitals in which a model is to be deployed.&lt;/p>
+&lt;h2 id="towards-trustworthy-predictions-from-deep-neural-networks-with-fast-adversarial-calibration">Towards Trustworthy Predictions from Deep Neural Networks with Fast Adversarial Calibration&lt;/h2>
+&lt;p>Here, we propose an efficient yet general modelling approach for obtaining wellcalibrated, trustworthy probabilities for samples obtained after a domain shift. We introduce a new training strategy combining an entropy-encouraging loss term with an adversarial calibration loss term and demonstrate that this results in well-calibrated and technically trustworthy predictions for a wide range of domain drifts. We comprehensively evaluate previously proposed approaches on different data modalities, a large range of data sets including sequence data, network architectures and perturbation strategies. We observe
 that our modelling approach substantially outperforms existing state-of-the-art approaches, yielding well-calibrated predictions under domain drift.
-Reference: Tomani &amp;amp; Buettner, AAAI 2021&lt;/p&gt;
-&lt;h2 id=&#34;post-hoc-uncertainty-calibration-for-domain-drift-scenarios&#34;&gt;Post-hoc Uncertainty Calibration for Domain Drift Scenarios&lt;/h2&gt;
-&lt;p&gt;We address the problem of uncertainty calibration. While standard deep neural networks typically yield uncalibrated predictions, calibrated confidence scores that are representative of the true likelihood of a prediction can be achieved using post-hoc calibration methods. However, to date the focus of these approaches has been on in-domain calibration. Our contribution is two-fold.
+Reference: Tomani &amp;amp; Buettner, AAAI 2021&lt;/p>
+&lt;h2 id="post-hoc-uncertainty-calibration-for-domain-drift-scenarios">Post-hoc Uncertainty Calibration for Domain Drift Scenarios&lt;/h2>
+&lt;p>We address the problem of uncertainty calibration. While standard deep neural networks typically yield uncalibrated predictions, calibrated confidence scores that are representative of the true likelihood of a prediction can be achieved using post-hoc calibration methods. However, to date the focus of these approaches has been on in-domain calibration. Our contribution is two-fold.
 First, we show that existing post-hoc calibration methods yield highly over-confident predictions under domain shift. Second, we introduce a simple strategy where perturbations are applied to samples in the validation set before performing the post-hoc calibration step. In extensive experiments, we demonstrate that this perturbation step results in substantially better calibration under domain shift on a wide range of architectures and modelling tasks.
-Reference: Tomani, Gruber, Erdem, Cremers &amp;amp; Buettner, CVPR 2021 (oral presentation)&lt;/p&gt;
-&lt;h2 id=&#34;parameterized-temperature-scaling-for-boosting-the-expressive-power-in-post-hoc-uncertainty-calibration&#34;&gt;Parameterized Temperature Scaling for Boosting the Expressive Power in Post-Hoc Uncertainty Calibration&lt;/h2&gt;
-&lt;p&gt;We address the problem of uncertainty calibration and introduce a novel calibration
+Reference: Tomani, Gruber, Erdem, Cremers &amp;amp; Buettner, CVPR 2021 (oral presentation)&lt;/p>
+&lt;h2 id="parameterized-temperature-scaling-for-boosting-the-expressive-power-in-post-hoc-uncertainty-calibration">Parameterized Temperature Scaling for Boosting the Expressive Power in Post-Hoc Uncertainty Calibration&lt;/h2>
+&lt;p>We address the problem of uncertainty calibration and introduce a novel calibration
 method, Parametrized Temperature Scaling (PTS). Standard deep neural networks typically yield uncalibrated predictions, which can be transformed into calibrated confidence
 scores using post-hoc calibration methods. In this contribution, we demonstrate that the
 performance of accuracy-preserving state-ofthe-art post-hoc calibrators is limited by their
 intrinsic expressive power. We generalize temperature scaling by computing predictionspecific temperatures, parameterized by a neural network. We show with extensive experiments that our novel accuracy-preserving approach consistently outperforms existing algorithms across a large number of model
 architectures, datasets and metrics.
-Reference: Tomani, Cremers &amp;amp; Buettner, arxiv 2021 (in submission)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Research Scientist in Cancer Genomics</title>
-      <link>https://mlo-lab.github.io/post/open-position/</link>
-      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/post/open-position/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Together with the University Hospital Frankfurt, we are looking for a research scientist in cancer genomics!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Check out the job description &lt;a href=&#34;https://jobs.dkfz.de/en/jobs/73238/research-scientist-in-cancer-genomics&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
-Deadline is 31.03.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hierarchical Domain Invariant Variational Auto-Encoding with weak domain supervision</title>
-      <link>https://mlo-lab.github.io/publication/sun-2021-hierarchical/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/sun-2021-hierarchical/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Parameterized Temperature Scaling for Boosting the Expressive Power in Post-Hoc Uncertainty Calibration</title>
-      <link>https://mlo-lab.github.io/publication/tomani-2021-parameterized/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/tomani-2021-parameterized/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Towards Trustworthy Predictions from Deep Neural Networks with Fast Adversarial Calibration</title>
-      <link>https://mlo-lab.github.io/publication/tomani-2020-towards/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/tomani-2020-towards/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning Representations with Multi-output Gaussian Processes for Uncertainty-aware Collaborative Filtering</title>
-      <link>https://mlo-lab.github.io/publication/yang-2020-learning/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/yang-2020-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Post-hoc Uncertainty Calibration for Domain Drift Scenarios</title>
-      <link>https://mlo-lab.github.io/publication/tomani-post-hoc-2020/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/tomani-post-hoc-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Single-cell RNA-sequencing of differentiating iPS cells reveals dynamic genetic effects on gene expression</title>
-      <link>https://mlo-lab.github.io/publication/cuomo-single-cell-2020/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/cuomo-single-cell-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TIMELY: Improving Labeling Consistency in Medical Imaging for Cell Type Classification</title>
-      <link>https://mlo-lab.github.io/publication/liu-timely-2020/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/liu-timely-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ano-rectal wall dose-surface maps localize the dosimetric benefit of hydrogel rectum spacers in prostate cancer radiotherapy</title>
-      <link>https://mlo-lab.github.io/publication/vanneste-ano-rectal-2019/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/vanneste-ano-rectal-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Document informed neural autoregressive topic models with distributional prior</title>
-      <link>https://mlo-lab.github.io/publication/gupta-document-2019/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/gupta-document-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Metabolic regulation of pluripotency and germ cell fate through α-ketoglutarate</title>
-      <link>https://mlo-lab.github.io/publication/tischler-metabolic-2019/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/tischler-metabolic-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Single cell multi-omics profiling reveals a hierarchical epigenetic landscape during mammalian germ layer specification</title>
-      <link>https://mlo-lab.github.io/publication/argelaguet-single-2019/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/argelaguet-single-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design and selection of machine learning methods using radiomics and dosiomics for normal tissue complication probability modeling of xerostomia</title>
-      <link>https://mlo-lab.github.io/publication/gabrys-design-2018/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/gabrys-design-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Document informed neural autoregressive topic models</title>
-      <link>https://mlo-lab.github.io/publication/gupta-document-2018/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/gupta-document-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi-Omics Factor Analysis—a framework for unsupervised integration of multi-omics data sets</title>
-      <link>https://mlo-lab.github.io/publication/argelaguet-multi-omics-2018/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/argelaguet-multi-omics-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>texttovec: Deep contextualized neural autoregressive models of language with distributed compositional prior</title>
-      <link>https://mlo-lab.github.io/publication/gupta-texttovec-2018-1/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/gupta-texttovec-2018-1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Texttovec: Deep contextualized neural autoregressive topic models of language with distributed compositional prior</title>
-      <link>https://mlo-lab.github.io/publication/gupta-texttovec-2018/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/gupta-texttovec-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A divergent population of autoantigen-responsive CD4&#43; T cells in infants prior to β cell autoimmunity</title>
-      <link>https://mlo-lab.github.io/publication/heninger-divergent-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/heninger-divergent-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cgcorrect: a method to correct for confounding cell–cell variation due to cell growth in single-cell transcriptomics</title>
-      <link>https://mlo-lab.github.io/publication/blasi-cgcorrect-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/blasi-cgcorrect-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>f-scLVM: scalable and versatile factor analysis for single-cell RNA-seq</title>
-      <link>https://mlo-lab.github.io/publication/buettner-f-sclvm-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/buettner-f-sclvm-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Parotid gland mean dose as a xerostomia predictor in low-dose domains</title>
-      <link>https://mlo-lab.github.io/publication/gabrys-parotid-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/gabrys-parotid-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Prospective identification of hematopoietic lineage choice by deep learning</title>
-      <link>https://mlo-lab.github.io/publication/buggenthin-prospective-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/buggenthin-prospective-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vitamin A-retinoic acid signaling regulates hematopoietic stem cell dormancy</title>
-      <link>https://mlo-lab.github.io/publication/cabezas-wallscheid-vitamin-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/cabezas-wallscheid-vitamin-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>destiny: diffusion maps for large-scale single-cell data in R</title>
-      <link>https://mlo-lab.github.io/publication/angerer-destiny-2016/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/angerer-destiny-2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unbiased prediction and feature selection in high-dimensional survival regression</title>
-      <link>https://mlo-lab.github.io/publication/laimighofer-unbiased-2016/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/laimighofer-unbiased-2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Combined single-cell functional and gene expression analysis resolves heterogeneity within stem cell populations</title>
-      <link>https://mlo-lab.github.io/publication/wilson-combined-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/wilson-combined-2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computational analysis of cell-to-cell heterogeneity in single-cell RNA-sequencing data reveals hidden subpopulations of cells</title>
-      <link>https://mlo-lab.github.io/publication/buettner-computational-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/buettner-computational-2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computational assignment of cell-cycle stage from single-cell transcriptome data</title>
-      <link>https://mlo-lab.github.io/publication/scialdone-computational-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/scialdone-computational-2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Decoding the regulatory network of early blood development from single-cell gene expression measurements</title>
-      <link>https://mlo-lab.github.io/publication/moignard-decoding-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/moignard-decoding-2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diffusion maps for high-dimensional single-cell analysis of differentiation data</title>
-      <link>https://mlo-lab.github.io/publication/haghverdi-diffusion-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/haghverdi-diffusion-2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Effects of high-dose oral insulin on immune responses in children at high risk for type 1 diabetes: the Pre-POINT randomized clinical trial</title>
-      <link>https://mlo-lab.github.io/publication/bonifacio-effects-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/bonifacio-effects-2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RAMONA: a Web application for gene set analysis on multilevel omics data</title>
-      <link>https://mlo-lab.github.io/publication/sass-ramona-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/sass-ramona-2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Single-cell transcriptomic reconstruction reveals cell cycle and multi-lineage differentiation defects in Bcl11a-deficient hematopoietic stem cells</title>
-      <link>https://mlo-lab.github.io/publication/tsang-single-cell-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/tsang-single-cell-2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Feature ranking of type 1 diabetes susceptibility genes improves prediction of type 1 diabetes</title>
-      <link>https://mlo-lab.github.io/publication/winkler-feature-2014/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/winkler-feature-2014/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Molecular phenotypic profiling of a Saccharomyces cerevisiae strain at the single-cell level</title>
-      <link>https://mlo-lab.github.io/publication/schmidt-molecular-2014/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/schmidt-molecular-2014/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Probabilistic PCA of censored data: accounting for uncertainties in the visualization of high-throughput single-cell qPCR data</title>
-      <link>https://mlo-lab.github.io/publication/buettner-probabilistic-2014/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/buettner-probabilistic-2014/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Two non-parametric methods for derivation of constraints from radiotherapy dose–histogram data</title>
-      <link>https://mlo-lab.github.io/publication/ebert-two-2014/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/ebert-two-2014/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A modular framework for gene set analysis integrating multilevel omics data</title>
-      <link>https://mlo-lab.github.io/publication/sass-modular-2013/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/sass-modular-2013/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Characterization of transcriptional networks in blood stem and progenitor cells using high-throughput single-cell gene expression analysis</title>
-      <link>https://mlo-lab.github.io/publication/moignard-characterization-2013/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/moignard-characterization-2013/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A novel approach for resolving differences in single-cell gene expression patterns from zygote to blastocyst</title>
-      <link>https://mlo-lab.github.io/publication/buettner-novel-2012/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/buettner-novel-2012/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Novel approaches to improve the therapeutic index of head and neck radiotherapy: an analysis of data from the PARSPORT randomised phase III trial</title>
-      <link>https://mlo-lab.github.io/publication/buettner-novel-2012-1/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/buettner-novel-2012-1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The dose–response of the anal sphincter region–an analysis of data from the MRC RT01 trial</title>
-      <link>https://mlo-lab.github.io/publication/buettner-doseresponse-2012/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/buettner-doseresponse-2012/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modeling late rectal toxicities based on a parameterized representation of the 3D dose distribution</title>
-      <link>https://mlo-lab.github.io/publication/buettner-modeling-2011/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/buettner-modeling-2011/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Using Bayesian logistic regression to evaluate a new type of dosimetric constraint for prostate radiotherapy treatment planning</title>
-      <link>https://mlo-lab.github.io/publication/buettner-using-2010/</link>
-      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/buettner-using-2010/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Assessing correlations between the spatial distribution of the dose to the rectal wall and late rectal toxicity after prostate radiotherapy: an analysis of data from the MRC RT01 trial (ISRCTN 47772397)</title>
-      <link>https://mlo-lab.github.io/publication/buettner-assessing-2009/</link>
-      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/buettner-assessing-2009/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Using dose-surface maps to predict radiation-induced rectal bleeding: a neural network approach</title>
-      <link>https://mlo-lab.github.io/publication/buettner-using-2009/</link>
-      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/buettner-using-2009/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dosimetric impact of motion in free-breathing and gated lung radiotherapy: A 4D Monte Carlo study of intrafraction and interfraction effects</title>
-      <link>https://mlo-lab.github.io/publication/seco-dosimetric-2008/</link>
-      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/seco-dosimetric-2008/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Optical trapping dynamics for cell identification</title>
-      <link>https://mlo-lab.github.io/publication/volpe-optical-2006/</link>
-      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/publication/volpe-optical-2006/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://mlo-lab.github.io/admin/config.yml</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://mlo-lab.github.io/admin/config.yml</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
+Reference: Tomani, Cremers &amp;amp; Buettner, arxiv 2021 (in submission)&lt;/p></description></item><item><title>Research Scientist in Cancer Genomics</title><link>https://mlo-lab.github.io/post/open-position/</link><pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/post/open-position/</guid><description>&lt;p>&lt;strong>Together with the University Hospital Frankfurt, we are looking for a research scientist in cancer genomics!&lt;/strong>&lt;/p>
+&lt;p>Check out the job description &lt;a href="https://jobs.dkfz.de/en/jobs/73238/research-scientist-in-cancer-genomics" target="_blank">here&lt;/a>.
+Deadline is 31.03.&lt;/p></description></item><item><title>Hierarchical Domain Invariant Variational Auto-Encoding with weak domain supervision</title><link>https://mlo-lab.github.io/publication/sun-2021-hierarchical/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/sun-2021-hierarchical/</guid><description/></item><item><title>Parameterized Temperature Scaling for Boosting the Expressive Power in Post-Hoc Uncertainty Calibration</title><link>https://mlo-lab.github.io/publication/tomani-2021-parameterized/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/tomani-2021-parameterized/</guid><description/></item><item><title>Towards Trustworthy Predictions from Deep Neural Networks with Fast Adversarial Calibration</title><link>https://mlo-lab.github.io/publication/tomani-2020-towards/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/tomani-2020-towards/</guid><description/></item><item><title>Learning Representations with Multi-output Gaussian Processes for Uncertainty-aware Collaborative Filtering</title><link>https://mlo-lab.github.io/publication/yang-2020-learning/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/yang-2020-learning/</guid><description/></item><item><title>Post-hoc Uncertainty Calibration for Domain Drift Scenarios</title><link>https://mlo-lab.github.io/publication/tomani-post-hoc-2020/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/tomani-post-hoc-2020/</guid><description/></item><item><title>Single-cell RNA-sequencing of differentiating iPS cells reveals dynamic genetic effects on gene expression</title><link>https://mlo-lab.github.io/publication/cuomo-single-cell-2020/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/cuomo-single-cell-2020/</guid><description/></item><item><title>TIMELY: Improving Labeling Consistency in Medical Imaging for Cell Type Classification</title><link>https://mlo-lab.github.io/publication/liu-timely-2020/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/liu-timely-2020/</guid><description/></item><item><title>Ano-rectal wall dose-surface maps localize the dosimetric benefit of hydrogel rectum spacers in prostate cancer radiotherapy</title><link>https://mlo-lab.github.io/publication/vanneste-ano-rectal-2019/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/vanneste-ano-rectal-2019/</guid><description/></item><item><title>Document informed neural autoregressive topic models with distributional prior</title><link>https://mlo-lab.github.io/publication/gupta-document-2019/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/gupta-document-2019/</guid><description/></item><item><title>Metabolic regulation of pluripotency and germ cell fate through α-ketoglutarate</title><link>https://mlo-lab.github.io/publication/tischler-metabolic-2019/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/tischler-metabolic-2019/</guid><description/></item><item><title>Single cell multi-omics profiling reveals a hierarchical epigenetic landscape during mammalian germ layer specification</title><link>https://mlo-lab.github.io/publication/argelaguet-single-2019/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/argelaguet-single-2019/</guid><description/></item><item><title>Design and selection of machine learning methods using radiomics and dosiomics for normal tissue complication probability modeling of xerostomia</title><link>https://mlo-lab.github.io/publication/gabrys-design-2018/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/gabrys-design-2018/</guid><description/></item><item><title>Document informed neural autoregressive topic models</title><link>https://mlo-lab.github.io/publication/gupta-document-2018/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/gupta-document-2018/</guid><description/></item><item><title>Multi-Omics Factor Analysis—a framework for unsupervised integration of multi-omics data sets</title><link>https://mlo-lab.github.io/publication/argelaguet-multi-omics-2018/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/argelaguet-multi-omics-2018/</guid><description/></item><item><title>texttovec: Deep contextualized neural autoregressive models of language with distributed compositional prior</title><link>https://mlo-lab.github.io/publication/gupta-texttovec-2018-1/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/gupta-texttovec-2018-1/</guid><description/></item><item><title>Texttovec: Deep contextualized neural autoregressive topic models of language with distributed compositional prior</title><link>https://mlo-lab.github.io/publication/gupta-texttovec-2018/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/gupta-texttovec-2018/</guid><description/></item><item><title>A divergent population of autoantigen-responsive CD4+ T cells in infants prior to β cell autoimmunity</title><link>https://mlo-lab.github.io/publication/heninger-divergent-2017/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/heninger-divergent-2017/</guid><description/></item><item><title>cgcorrect: a method to correct for confounding cell–cell variation due to cell growth in single-cell transcriptomics</title><link>https://mlo-lab.github.io/publication/blasi-cgcorrect-2017/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/blasi-cgcorrect-2017/</guid><description/></item><item><title>f-scLVM: scalable and versatile factor analysis for single-cell RNA-seq</title><link>https://mlo-lab.github.io/publication/buettner-f-sclvm-2017/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/buettner-f-sclvm-2017/</guid><description/></item><item><title>Parotid gland mean dose as a xerostomia predictor in low-dose domains</title><link>https://mlo-lab.github.io/publication/gabrys-parotid-2017/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/gabrys-parotid-2017/</guid><description/></item><item><title>Prospective identification of hematopoietic lineage choice by deep learning</title><link>https://mlo-lab.github.io/publication/buggenthin-prospective-2017/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/buggenthin-prospective-2017/</guid><description/></item><item><title>Vitamin A-retinoic acid signaling regulates hematopoietic stem cell dormancy</title><link>https://mlo-lab.github.io/publication/cabezas-wallscheid-vitamin-2017/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/cabezas-wallscheid-vitamin-2017/</guid><description/></item><item><title>destiny: diffusion maps for large-scale single-cell data in R</title><link>https://mlo-lab.github.io/publication/angerer-destiny-2016/</link><pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/angerer-destiny-2016/</guid><description/></item><item><title>Unbiased prediction and feature selection in high-dimensional survival regression</title><link>https://mlo-lab.github.io/publication/laimighofer-unbiased-2016/</link><pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/laimighofer-unbiased-2016/</guid><description/></item><item><title>Combined single-cell functional and gene expression analysis resolves heterogeneity within stem cell populations</title><link>https://mlo-lab.github.io/publication/wilson-combined-2015/</link><pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/wilson-combined-2015/</guid><description/></item><item><title>Computational analysis of cell-to-cell heterogeneity in single-cell RNA-sequencing data reveals hidden subpopulations of cells</title><link>https://mlo-lab.github.io/publication/buettner-computational-2015/</link><pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/buettner-computational-2015/</guid><description/></item><item><title>Computational assignment of cell-cycle stage from single-cell transcriptome data</title><link>https://mlo-lab.github.io/publication/scialdone-computational-2015/</link><pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/scialdone-computational-2015/</guid><description/></item><item><title>Decoding the regulatory network of early blood development from single-cell gene expression measurements</title><link>https://mlo-lab.github.io/publication/moignard-decoding-2015/</link><pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/moignard-decoding-2015/</guid><description/></item><item><title>Diffusion maps for high-dimensional single-cell analysis of differentiation data</title><link>https://mlo-lab.github.io/publication/haghverdi-diffusion-2015/</link><pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/haghverdi-diffusion-2015/</guid><description/></item><item><title>Effects of high-dose oral insulin on immune responses in children at high risk for type 1 diabetes: the Pre-POINT randomized clinical trial</title><link>https://mlo-lab.github.io/publication/bonifacio-effects-2015/</link><pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/bonifacio-effects-2015/</guid><description/></item><item><title>RAMONA: a Web application for gene set analysis on multilevel omics data</title><link>https://mlo-lab.github.io/publication/sass-ramona-2015/</link><pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/sass-ramona-2015/</guid><description/></item><item><title>Single-cell transcriptomic reconstruction reveals cell cycle and multi-lineage differentiation defects in Bcl11a-deficient hematopoietic stem cells</title><link>https://mlo-lab.github.io/publication/tsang-single-cell-2015/</link><pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/tsang-single-cell-2015/</guid><description/></item><item><title>Feature ranking of type 1 diabetes susceptibility genes improves prediction of type 1 diabetes</title><link>https://mlo-lab.github.io/publication/winkler-feature-2014/</link><pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/winkler-feature-2014/</guid><description/></item><item><title>Molecular phenotypic profiling of a Saccharomyces cerevisiae strain at the single-cell level</title><link>https://mlo-lab.github.io/publication/schmidt-molecular-2014/</link><pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/schmidt-molecular-2014/</guid><description/></item><item><title>Probabilistic PCA of censored data: accounting for uncertainties in the visualization of high-throughput single-cell qPCR data</title><link>https://mlo-lab.github.io/publication/buettner-probabilistic-2014/</link><pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/buettner-probabilistic-2014/</guid><description/></item><item><title>Two non-parametric methods for derivation of constraints from radiotherapy dose–histogram data</title><link>https://mlo-lab.github.io/publication/ebert-two-2014/</link><pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/ebert-two-2014/</guid><description/></item><item><title>A modular framework for gene set analysis integrating multilevel omics data</title><link>https://mlo-lab.github.io/publication/sass-modular-2013/</link><pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/sass-modular-2013/</guid><description/></item><item><title>Characterization of transcriptional networks in blood stem and progenitor cells using high-throughput single-cell gene expression analysis</title><link>https://mlo-lab.github.io/publication/moignard-characterization-2013/</link><pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/moignard-characterization-2013/</guid><description/></item><item><title>A novel approach for resolving differences in single-cell gene expression patterns from zygote to blastocyst</title><link>https://mlo-lab.github.io/publication/buettner-novel-2012/</link><pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/buettner-novel-2012/</guid><description/></item><item><title>Novel approaches to improve the therapeutic index of head and neck radiotherapy: an analysis of data from the PARSPORT randomised phase III trial</title><link>https://mlo-lab.github.io/publication/buettner-novel-2012-1/</link><pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/buettner-novel-2012-1/</guid><description/></item><item><title>The dose–response of the anal sphincter region–an analysis of data from the MRC RT01 trial</title><link>https://mlo-lab.github.io/publication/buettner-doseresponse-2012/</link><pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/buettner-doseresponse-2012/</guid><description/></item><item><title>Modeling late rectal toxicities based on a parameterized representation of the 3D dose distribution</title><link>https://mlo-lab.github.io/publication/buettner-modeling-2011/</link><pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/buettner-modeling-2011/</guid><description/></item><item><title>Using Bayesian logistic regression to evaluate a new type of dosimetric constraint for prostate radiotherapy treatment planning</title><link>https://mlo-lab.github.io/publication/buettner-using-2010/</link><pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/buettner-using-2010/</guid><description/></item><item><title>Assessing correlations between the spatial distribution of the dose to the rectal wall and late rectal toxicity after prostate radiotherapy: an analysis of data from the MRC RT01 trial (ISRCTN 47772397)</title><link>https://mlo-lab.github.io/publication/buettner-assessing-2009/</link><pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/buettner-assessing-2009/</guid><description/></item><item><title>Using dose-surface maps to predict radiation-induced rectal bleeding: a neural network approach</title><link>https://mlo-lab.github.io/publication/buettner-using-2009/</link><pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/buettner-using-2009/</guid><description/></item><item><title>Dosimetric impact of motion in free-breathing and gated lung radiotherapy: A 4D Monte Carlo study of intrafraction and interfraction effects</title><link>https://mlo-lab.github.io/publication/seco-dosimetric-2008/</link><pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/seco-dosimetric-2008/</guid><description/></item><item><title>Optical trapping dynamics for cell identification</title><link>https://mlo-lab.github.io/publication/volpe-optical-2006/</link><pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/volpe-optical-2006/</guid><description/></item><item><title/><link>https://mlo-lab.github.io/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/admin/config.yml</guid><description/></item></channel></rss>
