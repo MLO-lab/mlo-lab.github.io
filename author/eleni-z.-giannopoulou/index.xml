@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eleni Z. Giannopoulou | MLO Lab</title>
+    <link>https://mlo-lab.github.io/author/eleni-z.-giannopoulou/</link>
+      <atom:link href="https://mlo-lab.github.io/author/eleni-z.-giannopoulou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eleni Z. Giannopoulou</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 MLO Lab</copyright><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mlo-lab.github.io/media/logo_huf4d7cfef1565109ab26b35fe95d2b8f5_47080_300x300_fit_lanczos_2.png</url>
+      <title>Eleni Z. Giannopoulou</title>
+      <link>https://mlo-lab.github.io/author/eleni-z.-giannopoulou/</link>
+    </image>
+    
+    <item>
+      <title>Feature ranking of type 1 diabetes susceptibility genes improves prediction of type 1 diabetes</title>
+      <link>https://mlo-lab.github.io/publication/winkler-feature-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/publication/winkler-feature-2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

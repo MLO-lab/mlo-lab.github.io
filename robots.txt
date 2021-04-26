@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://mlo-lab.github.io/sitemap.xml

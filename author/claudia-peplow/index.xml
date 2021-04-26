@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Claudia Peplow | MLO Lab</title>
+    <link>https://mlo-lab.github.io/author/claudia-peplow/</link>
+      <atom:link href="https://mlo-lab.github.io/author/claudia-peplow/index.xml" rel="self" type="application/rss+xml" />
+    <description>Claudia Peplow</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 MLO Lab</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mlo-lab.github.io/media/logo_huf4d7cfef1565109ab26b35fe95d2b8f5_47080_300x300_fit_lanczos_2.png</url>
+      <title>Claudia Peplow</title>
+      <link>https://mlo-lab.github.io/author/claudia-peplow/</link>
+    </image>
+    
+    <item>
+      <title>Effects of high-dose oral insulin on immune responses in children at high risk for type 1 diabetes: the Pre-POINT randomized clinical trial</title>
+      <link>https://mlo-lab.github.io/publication/bonifacio-effects-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/publication/bonifacio-effects-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

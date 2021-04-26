@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>single-cell | MLO Lab</title>
+    <link>https://mlo-lab.github.io/tag/single-cell/</link>
+      <atom:link href="https://mlo-lab.github.io/tag/single-cell/index.xml" rel="self" type="application/rss+xml" />
+    <description>single-cell</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 MLO Lab</copyright><lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mlo-lab.github.io/media/logo_huf4d7cfef1565109ab26b35fe95d2b8f5_47080_300x300_fit_lanczos_2.png</url>
+      <title>single-cell</title>
+      <link>https://mlo-lab.github.io/tag/single-cell/</link>
+    </image>
+    
+    <item>
+      <title>Computational single-cell biology</title>
+      <link>https://mlo-lab.github.io/project/single-cell/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/project/single-cell/</guid>
+      <description>&lt;h2 id=&#34;single-cell-rna-seq&#34;&gt;Single-cell RNA-seq&lt;/h2&gt;
+&lt;p&gt;One research focus of MLO is on the development of application driven probabilistic machine-learning methods for analyzing high-throughput single-cell RNA-seq data.
+Single-cell RNA sequencing (scRNA-seq) has  become a widely used routine assay and recent scRNA-seq protocols now allow to obtain an unbiased profile of transcriptional heterogeneity at a genome-wide scale, which can be scaled to large datasets with up to millions of cells.
+Analysis of such data is challenging: As the intrinsic cellular state of individual cells cannot be directly assayed, cell states need to be inferred from the transcriptional profiling data itself. To this end, single-cell profiling data pose new challenges and opportunities to derive powerful latent variable models (LVMs) that help to exploit large datasets.&lt;/p&gt;
+&lt;h3 id=&#34;visualization-of-latent-cell-states&#34;&gt;Visualization of latent cell states&lt;/h3&gt;
+&lt;p&gt;We have developed several tools tailored towards inferring and visualizing internal cell states. This includes inferring the internal cell-cycle state of individual cells via Gaussian Process Latent Variabe Models (GPLVM), as well as GPLVM-based identification of cell subpopulations. In addition, we have created tools based on diffusion maps that allow to recover the intrinsic order of cels, e.g. in terms of their differentiation state.&lt;/p&gt;
+&lt;h3 id=&#34;identification-of-sources-of-cell-cell-variation&#34;&gt;Identification of sources of cell-cell variation&lt;/h3&gt;
+&lt;p&gt;Cell-cell variability in terms of gene expression results from a variety of potential sources, including technical noise, biological variation of interest and unwanted biologicl variation (e.g. mitochonrial genes, cell cycle state, etc.). To disentangle these sources of variation, we designed slalom, an interpretable latent variable model that addresses three key tasks in computational scRNA-seq&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Disentagling biological and technical sources of variation&lt;/li&gt;
+&lt;li&gt;Visualizing the pathways driving cell-cell variation&lt;/li&gt;
+&lt;li&gt;Refining pathway annotations in an experiment-specific manner&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>f-scLVM: scalable and versatile factor analysis for single-cell RNA-seq</title>
+      <link>https://mlo-lab.github.io/publication/buettner-f-sclvm-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/publication/buettner-f-sclvm-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>destiny: diffusion maps for large-scale single-cell data in R</title>
+      <link>https://mlo-lab.github.io/publication/angerer-destiny-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/publication/angerer-destiny-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A novel approach for resolving differences in single-cell gene expression patterns from zygote to blastocyst</title>
+      <link>https://mlo-lab.github.io/publication/buettner-novel-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/publication/buettner-novel-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

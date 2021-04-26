@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steve Webb | MLO Lab</title>
+    <link>https://mlo-lab.github.io/author/steve-webb/</link>
+      <atom:link href="https://mlo-lab.github.io/author/steve-webb/index.xml" rel="self" type="application/rss+xml" />
+    <description>Steve Webb</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 MLO Lab</copyright><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mlo-lab.github.io/media/logo_huf4d7cfef1565109ab26b35fe95d2b8f5_47080_300x300_fit_lanczos_2.png</url>
+      <title>Steve Webb</title>
+      <link>https://mlo-lab.github.io/author/steve-webb/</link>
+    </image>
+    
+    <item>
+      <title>Novel approaches to improve the therapeutic index of head and neck radiotherapy: an analysis of data from the PARSPORT randomised phase III trial</title>
+      <link>https://mlo-lab.github.io/publication/buettner-novel-2012-1/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/publication/buettner-novel-2012-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The dose–response of the anal sphincter region–an analysis of data from the MRC RT01 trial</title>
+      <link>https://mlo-lab.github.io/publication/buettner-doseresponse-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/publication/buettner-doseresponse-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling late rectal toxicities based on a parameterized representation of the 3D dose distribution</title>
+      <link>https://mlo-lab.github.io/publication/buettner-modeling-2011/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/publication/buettner-modeling-2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing correlations between the spatial distribution of the dose to the rectal wall and late rectal toxicity after prostate radiotherapy: an analysis of data from the MRC RT01 trial (ISRCTN 47772397)</title>
+      <link>https://mlo-lab.github.io/publication/buettner-assessing-2009/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/publication/buettner-assessing-2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using dose-surface maps to predict radiation-induced rectal bleeding: a neural network approach</title>
+      <link>https://mlo-lab.github.io/publication/buettner-using-2009/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/publication/buettner-using-2009/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

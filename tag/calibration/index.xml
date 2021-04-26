@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>calibration | MLO Lab</title>
+    <link>https://mlo-lab.github.io/tag/calibration/</link>
+      <atom:link href="https://mlo-lab.github.io/tag/calibration/index.xml" rel="self" type="application/rss+xml" />
+    <description>calibration</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 MLO Lab</copyright><lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mlo-lab.github.io/media/logo_huf4d7cfef1565109ab26b35fe95d2b8f5_47080_300x300_fit_lanczos_2.png</url>
+      <title>calibration</title>
+      <link>https://mlo-lab.github.io/tag/calibration/</link>
+    </image>
+    
+    <item>
+      <title>Uncertainty-aware deep learning in the real world</title>
+      <link>https://mlo-lab.github.io/project/calibration/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/project/calibration/</guid>
+      <description>&lt;p&gt;Due to their high predictive power, deep neural networks are increasingly being used as part of decision
+making systems in real world applications. However, such systems require not only high accuracy, but also reliable and calibrated uncertainty estimates. Especially in safety critical applications in medicine where average case performance is insufficient, practitioners need to have access to reliable predictive uncertainty during the entire lifecycle of the model. This means confidence scores (or
+predictive uncertainty) should be meaningful not only for in-domain predictions, but also under gradual
+domain drift where the distribution of the input samples gradually changes from in-domain to truly out-ofdistribution (OOD). In healthcare, common examples of such domain shift scenarios are a patient demographic that changes over time or new hospitals in which a model is to be deployed.&lt;/p&gt;
+&lt;h2 id=&#34;towards-trustworthy-predictions-from-deep-neural-networks-with-fast-adversarial-calibration&#34;&gt;Towards Trustworthy Predictions from Deep Neural Networks with Fast Adversarial Calibration&lt;/h2&gt;
+&lt;p&gt;Here, we propose an efficient yet general modelling approach for obtaining wellcalibrated, trustworthy probabilities for samples obtained after a domain shift. We introduce a new training strategy combining an entropy-encouraging loss term with an adversarial calibration loss term and demonstrate that this results in well-calibrated and technically trustworthy predictions for a wide range of domain drifts. We comprehensively evaluate previously proposed approaches on different data modalities, a large range of data sets including sequence data, network architectures and perturbation strategies. We observe
+that our modelling approach substantially outperforms existing state-of-the-art approaches, yielding well-calibrated predictions under domain drift.
+Reference: Tomani &amp;amp; Buettner, AAAI 2021&lt;/p&gt;
+&lt;h2 id=&#34;post-hoc-uncertainty-calibration-for-domain-drift-scenarios&#34;&gt;Post-hoc Uncertainty Calibration for Domain Drift Scenarios&lt;/h2&gt;
+&lt;p&gt;We address the problem of uncertainty calibration. While standard deep neural networks typically yield uncalibrated predictions, calibrated confidence scores that are representative of the true likelihood of a prediction can be achieved using post-hoc calibration methods. However, to date the focus of these approaches has been on in-domain calibration. Our contribution is two-fold.
+First, we show that existing post-hoc calibration methods yield highly over-confident predictions under domain shift. Second, we introduce a simple strategy where perturbations are applied to samples in the validation set before performing the post-hoc calibration step. In extensive experiments, we demonstrate that this perturbation step results in substantially better calibration under domain shift on a wide range of architectures and modelling tasks.
+Reference: Tomani, Gruber, Erdem, Cremers &amp;amp; Buettner, CVPR 2021 (oral presentation)&lt;/p&gt;
+&lt;h2 id=&#34;parameterized-temperature-scaling-for-boosting-the-expressive-power-in-post-hoc-uncertainty-calibration&#34;&gt;Parameterized Temperature Scaling for Boosting the Expressive Power in Post-Hoc Uncertainty Calibration&lt;/h2&gt;
+&lt;p&gt;We address the problem of uncertainty calibration and introduce a novel calibration
+method, Parametrized Temperature Scaling (PTS). Standard deep neural networks typically yield uncalibrated predictions, which can be transformed into calibrated confidence
+scores using post-hoc calibration methods. In this contribution, we demonstrate that the
+performance of accuracy-preserving state-ofthe-art post-hoc calibrators is limited by their
+intrinsic expressive power. We generalize temperature scaling by computing predictionspecific temperatures, parameterized by a neural network. We show with extensive experiments that our novel accuracy-preserving approach consistently outperforms existing algorithms across a large number of model
+architectures, datasets and metrics.
+Reference: Tomani, Cremers &amp;amp; Buettner, arxiv 2021 (in submission)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Parameterized Temperature Scaling for Boosting the Expressive Power in Post-Hoc Uncertainty Calibration</title>
+      <link>https://mlo-lab.github.io/publication/tomani-2021-parameterized/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/publication/tomani-2021-parameterized/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

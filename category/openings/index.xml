@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openings | MLO Lab</title>
+    <link>https://mlo-lab.github.io/category/openings/</link>
+      <atom:link href="https://mlo-lab.github.io/category/openings/index.xml" rel="self" type="application/rss+xml" />
+    <description>Openings</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 MLO Lab</copyright><lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mlo-lab.github.io/media/logo_huf4d7cfef1565109ab26b35fe95d2b8f5_47080_300x300_fit_lanczos_2.png</url>
+      <title>Openings</title>
+      <link>https://mlo-lab.github.io/category/openings/</link>
+    </image>
+    
+    <item>
+      <title>Research Scientist in Cancer Genomics</title>
+      <link>https://mlo-lab.github.io/post/open-position/</link>
+      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/post/open-position/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Together with the University Hospital Frankfurt, we are looking for a research scientist in cancer genomics!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Check out the job description &lt;a href=&#34;https://jobs.dkfz.de/en/jobs/73238/research-scientist-in-cancer-genomics&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
+Deadline is 31.03.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

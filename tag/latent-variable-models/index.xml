@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>latent variable models | MLO Lab</title>
+    <link>https://mlo-lab.github.io/tag/latent-variable-models/</link>
+      <atom:link href="https://mlo-lab.github.io/tag/latent-variable-models/index.xml" rel="self" type="application/rss+xml" />
+    <description>latent variable models</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 MLO Lab</copyright><lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mlo-lab.github.io/media/logo_huf4d7cfef1565109ab26b35fe95d2b8f5_47080_300x300_fit_lanczos_2.png</url>
+      <title>latent variable models</title>
+      <link>https://mlo-lab.github.io/tag/latent-variable-models/</link>
+    </image>
+    
+    <item>
+      <title>Probabilistic latent variable models</title>
+      <link>https://mlo-lab.github.io/project/lvmodels/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://mlo-lab.github.io/project/lvmodels/</guid>
+      <description>&lt;p&gt;Latent variable models (LVMs) are a statistical tool to infer an unobserved, hidden state of a complex (e.g. biological) system based on observable data that is often high-dimensional. To this end, a high-dimensional dataset of correlated observations is reduced into a low-dimensional dataset of uncorrelated and interpretable latent variables. Probabilistic approaches allow for a principled way to disentangle distinct sources of variation and explicitly model dependencies between features as well as samples.&lt;/p&gt;
+&lt;h2 id=&#34;accounting-for-dependencies-between-genes-in-lvms&#34;&gt;Accounting for dependencies between genes in LVMs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Standard latent variable models only model dependencies between samples&lt;/li&gt;
+&lt;li&gt;Can we make dependencies between features (genes) explicit?&lt;/li&gt;
+&lt;li&gt;Use framework of Gaussian Process Latent Variable Models (GP-LVM)&lt;/li&gt;
+&lt;li&gt;Probabilistic kernel PCA via GP regression with unobserved input&lt;/li&gt;
+&lt;li&gt;Introduce kernel to model covariance between genes&lt;/li&gt;
+&lt;li&gt;Learn latent variables for genes and samples and connect via Kronecker Product&lt;/li&gt;
+&lt;li&gt;Apply to matrix completion tasks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reference: Yang &amp;amp; Buettner, UAI 2021 (in revision)&lt;/p&gt;
+&lt;h2 id=&#34;hierarchical-autoencoders-for-domain-generalisation&#34;&gt;Hierarchical autoencoders for Domain Generalisation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn VAE to disentangle domain-specific information form class-specific information  and residual variance&lt;/li&gt;
+&lt;li&gt;Place Dirichlet prior on domain representation&lt;/li&gt;
+&lt;li&gt;Learn “topics” that describe domain structure in unsupervised manner&lt;/li&gt;
+&lt;li&gt;Interpretable model for unsupervised domain generalisation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reference: Sun &amp;amp; Buettner, ICLR Workshop on robustML, 2021&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
