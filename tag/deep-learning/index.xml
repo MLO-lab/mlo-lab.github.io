@@ -36,4 +36,4 @@ scores using post-hoc calibration methods. In this contribution, we demonstrate 
 performance of accuracy-preserving state-ofthe-art post-hoc calibrators is limited by their
 intrinsic expressive power. We generalize temperature scaling by computing predictionspecific temperatures, parameterized by a neural network. We show with extensive experiments that our novel accuracy-preserving approach consistently outperforms existing algorithms across a large number of model
 architectures, datasets and metrics.&lt;/p>
-&lt;p>&lt;em>Reference: Tomani, Cremers &amp;amp; Buettner, arxiv 2021 (in submission)&lt;/em>&lt;/p></description></item><item><title>Parameterized Temperature Scaling for Boosting the Expressive Power in Post-Hoc Uncertainty Calibration</title><link>https://mlo-lab.github.io/publication/tomani-2021-parameterized/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://mlo-lab.github.io/publication/tomani-2021-parameterized/</guid><description/></item></channel></rss>
+&lt;p>&lt;em>Reference: Tomani, Cremers &amp;amp; Buettner, arxiv 2021 (in submission)&lt;/em>&lt;/p></description></item></channel></rss>
