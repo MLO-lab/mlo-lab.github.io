@@ -1,21 +1,6 @@
 #!/bin/bash
 set -e
 
-# ---------------------------------------------------------
-# Load conda inside the script
-# ---------------------------------------------------------
-CONDA_SH="$HOME/miniconda3/etc/profile.d/conda.sh"
-if [ -f "$CONDA_SH" ]; then
-    source "$CONDA_SH"
-else
-    echo "❌ Could not find conda.sh at $CONDA_SH"
-    exit 1
-fi
-
-echo "🟢 Activating conda environment: website"
-conda activate website
-
-# You are already in content/publication/
 PUBS_DIR="."
 BIB="publications.bib"
 
